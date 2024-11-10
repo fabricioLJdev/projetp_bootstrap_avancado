@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="nav-brand m-0 section-title fs-1">Instru Music</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-instru-music" class="nav-link">
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#tipos-de-instrumentos" class="nav-link">
+                            Instrumentos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smoth-scroll >
+        <section id="sobre-a-instru-music">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./carrosel_img/slide 1.jpg" alt="guitarra-vermelha">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./carrosel_img/slide 2.jpg" alt="drumns">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./carrosel_img/slide 3.jpg" alt="guitarra">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./frente_loja/frente_loja.jpg" class="d-block w-100 rounded" alt="Foto da Instru Music">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia necessitatibus modi similique minima tempora obcaecati laborum dolore porro iure! Mollitia quo laborum nemo soluta, cum amet beatae corporis harum? Impedit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia necessitatibus modi similique minima tempora obcaecati laborum dolore porro iure! Mollitia quo laborum nemo soluta, cum amet beatae corporis harum? Impedit.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum eligendi quisquam deleniti minima recusandae cumque dignissimos, facere quae sunt cupiditate obcaecati accusamus est mollitia dolore atque aut minus assumenda.
+                            </p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quia officia, suscipit modi nulla rem ratione architecto maxime recusandae. Ipsam accusantium expedita provident. Eius porro hic possimus, qui sequi consequuntur.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur iste nobis omnis est perferendis ipsum quis accusamus autem, dignissimos adipisci, eligendi laudantium ullam nostrum ad possimus qui debitis doloribus quam?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam magni quasi assumenda, suscipit vero eligendi eaque aliquid unde possimus placeat quos! Temporibus, ab veritatis accusantium fugiat odio excepturi consequatur!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tipos-de-instrumentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Todos os gostos <span class="text-colored">para momentos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="./cards/baixo_6_cordas.jpg" alt="Baixo preto" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-center text-colored fs-4">Baixo 6 cordas</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ut amet dolorem numquam optio laudantium corporis eos expedita a pariatur? Architecto veritatis tempore adipisci quod aspernatur accusamus, id animi! Possimus?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aut aperiam voluptatem distinctio libero sunt nisi, culpa enim est vitae provident reiciendis vel quia neque deserunt ipsam nobis unde quos.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas est atque ullam magnam nam quisquam vero, sed sit doloribus, sapiente aliquam sunt consequuntur inventore impedit dolorem voluptatibus provident molestiae ipsam.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="./cards/guitarra_michael_strato.png" alt="guitarra_preta" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-center text-colored fs-4">
+                            Micheal Strato
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quia accusamus soluta et reprehenderit hic ipsum, excepturi perferendis voluptates consequuntur corporis porro magni nemo quaerat ratione doloremque repudiandae eligendi. Consequuntur!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et blanditiis cupiditate labore assumenda odio nemo sit sint molestiae dolores possimus magnam porro, a debitis similique reiciendis ex? Aut, nisi.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla fuga cupiditate repellendus! Eveniet veritatis, necessitatibus praesentium quam totam nemo hic rerum, ut possimus assumenda animi distinctio cumque doloremque alias.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="./cards/piano_go_holand.jpg" alt="piano_preta" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-center text-colored fs-4">
+                            Piano go holand
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quia accusamus soluta et reprehenderit hic ipsum, excepturi perferendis voluptates consequuntur corporis porro magni nemo quaerat ratione doloremque repudiandae eligendi. Consequuntur!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et blanditiis cupiditate labore assumenda odio nemo sit sint molestiae dolores possimus magnam porro, a debitis similique reiciendis ex? Aut, nisi.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla fuga cupiditate repellendus! Eveniet veritatis, necessitatibus praesentium quam totam nemo hic rerum, ut possimus assumenda animi distinctio cumque doloremque alias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Rede Sociais 
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Des Ipamn, 4321
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Rede Sociais 
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Des Ipamn, 4321
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
